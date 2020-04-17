@@ -27,16 +27,19 @@
 
 .sub-menu{
     position: relative;
+    
 }
 
 .sub-menu .sub-menu-2{
+    
     position: absolute;
     display: none;
-    top: 30px;
+    top: 17px;
     left: 0px;
     text-align: left;
     font-size: 13px;
     padding-bottom: 30px;
+    padding-top: 13px;
    
 }
 
@@ -44,15 +47,17 @@
     margin-bottom: 10px;
 }
 
-.sub-menu-3{
-    
+.sub-menu-3{    
     margin-left: 20px;
     text-align: left;
+    padding-top: 0px;
+    display: none;
 }
 
 .sub-menu-3 div{
     padding-left: 7px;
     padding-top: 6px;
+   
 }
 
 
