@@ -85,11 +85,11 @@
     
 .home-text-title{
     font-size: 40px;
-    color: rebeccapurple;
+    color: #3B296B;
 }
 
 .home-input-courses{
-    color: plum;
+    color:plum;
     width: 700px;
     text-align: center;
     margin-left: auto;
@@ -100,4 +100,8 @@
 .home-input-courses input{
     width: 300px;
     border: 1px solid #937668;
+}
+
+.shop-button{
+    text-align: center;
 }
