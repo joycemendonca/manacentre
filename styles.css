@@ -1,8 +1,4 @@
-body{
-    background-image: url('images/Symbols-03.png'), url('images/Symbols-04.png'), url('images/Symbols-05.png'), url('images/Symbols-06.png');
-    background-position:center top, right top, center bottom, left bottom;
-    background-repeat: no-repeat;
-}
+
 .logo{
     text-align: center;
    
@@ -14,14 +10,20 @@ body{
 }
 
 .menu{
+    position: sticky;
+    top: 0px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: -8px;
+    margin-bottom: 25px;
+    background: white;
+    padding: 10px 0;
 }
 
 .menu a{
     text-decoration: none;
-    color:#FFFFFFF;
+    color:#937668;
     padding: 0px 20px 0px 20px;
+    
 }
 
 .menu a:hover{
@@ -38,6 +40,7 @@ body{
 
 .sub-menu{
     position: relative;
+   
     
 }
 
@@ -77,17 +80,36 @@ body{
    
 }
 
-.banner {
+.banner-1{
     width: 100%;
     height: 450px;
     background-image: url('images/AuraReading_Whole.jpg');
     background-position: center;
-    margin-top: 25px;
+    /* padding-top: 25px; */
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.banner-2{
+    width: 100%;
+    height: 450px;
+    background-image: url('images/AuraReading_Whole.jpg');
+    background-position: center;
+    /* padding-top: 25px; */
+    background-size: cover;
+}
+
+.banner-3{
+    width: 100%;
+    height: 450px;
+    background-image: url('images/AuraReading_Whole.jpg');
+    background-position: center;
+    /* padding-top: 25px; */
     background-size: cover;
 }
 
 .home-text{
-    color: plum;
+    color: #937668;
     width: 700px;
     text-align: center;
     margin-left: auto;
@@ -101,7 +123,7 @@ body{
 }
 
 .home-input-courses{
-    color:plum;
+    color:#6d6e71;
     width: 700px;
     text-align: center;
     margin-left: auto;
@@ -116,5 +138,26 @@ body{
 
 .shop-button{
     text-align: center;
+    color: #937668;
+    padding-bottom: 22px;
+}
+
+.home-background-1{
+    background-image: url('images/Symbols-04.png'), url('images/Symbols-03.png');
+    background-position: calc(50% - 646px) 390px, calc(50% + 551px) 611px;
+    background-repeat: no-repeat;
+    
+}
+
+.home-background-2{
+    background-image: url('images/Symbols-04.png'), url('images/Symbols-06.png');
+    background-position: calc(50% - 646px) 432px, calc(50% + 551px) 308px;
+    background-repeat: no-repeat;    
+}
+
+.home-background-3{
+    background-image: url('images/Symbols-04.png'), url('images/Symbols-06.png');
+    background-position: calc(50% - 646px) 524px, calc(50% + 413px) 308px;
+    background-repeat: no-repeat;
     
 }
