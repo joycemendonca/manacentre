@@ -1,11 +1,11 @@
 
 @font-face {
-    font-family: magra;
-    src: url(fonts/Magra-Regular.ttf);
+    font-family: arcon;
+    src: url(fonts/Arcon-Regular.otf);
 }
 
 body {
-    font-family: magra;
+    font-family: arcon;
 }
 
 .logo{
