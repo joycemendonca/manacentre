@@ -185,3 +185,45 @@ body {
     background-repeat: no-repeat;
     
 }
+
+.about-title{
+    text-align: center;
+}
+
+.about-images{
+    display: flex;
+    justify-content: center;
+}
+
+.about-images img{
+    height: 250px;
+    width: 250px;
+}
+
+.about-images p{
+    text-align: center;
+}
+
+.about-content-2{
+    padding: 20px 50px;
+    background-color: violet;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.about-footer{
+    background-color: violet;
+}
+
+.about-images-footer{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.about-images-footer img{
+    height: 100px;
+    width: 100px;
+}
+
