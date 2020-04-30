@@ -201,10 +201,6 @@ body {
     
 }
 
-about{
-    background-color: #E2D4D0;
-}
-
 .about-title{
     text-align: center;
 }
@@ -216,10 +212,25 @@ about{
     font-size: 52px;
 }
 
+.about-separator{
+    position: relative;
+}
+
+.separator{
+    background-image: url(images/separator-stars.png);
+    background-repeat: no-repeat;
+    height: 78px;
+    width: 170px;
+    position: absolute;
+    bottom: -41px;
+    left: 50%;
+    margin-left: -85px;
+    background-size: contain;
+}
+
 .about-home-texts{
     background-color: #D9CACB;
-    border-image: url(images/Logo\ starts.png);
-}
+    }
 
 .about-images{
     display: flex;
