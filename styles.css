@@ -157,7 +157,7 @@ body {
 
     
 .home-text-title{
-    font-size: 40px;
+    font-size: 90px;
     color: #3B296B;
 }
 
@@ -178,9 +178,9 @@ body {
 
 .shop-button{
     text-align: center;
-    margin-bottom: 150px;
+    margin-bottom: 110px;
     margin-top: 100px;
-    padding-bottom: 22px;
+   
    
 }
 
@@ -193,23 +193,36 @@ body {
 }
 
 .home-background-1{
-    background-image: url('images/Symbols-04.png'), url('images/Symbols-03.png');
-    background-position: calc(50% - 646px) 390px, calc(50% + 551px) 611px;
+    background-image: url('images/Symbols-04.png'), url('images/Symbols-05.png');
+    background-position: calc(50% - 932px) 390px, calc(50% - -1062px) 41px;
     background-repeat: no-repeat;
+    background-size: 951px, 367px;
     
 }
 
 .home-background-2{
-    background-image: url('images/Symbols-04.png'), url('images/Symbols-06.png');
-    background-position: calc(50% - 646px) 432px, calc(50% + 551px) 308px;
-    background-repeat: no-repeat;    
-}
+    background-image: url(images/Symbols-06.png), url(images/Symbols-04.png);
+    background-position: calc(50% - 790px) 390px, calc(50% + 909px) 651px;
+    background-repeat: no-repeat;
+    background-size: 529px, 931px;
+}    
 
 .home-background-3{
-    background-image: url('images/Symbols-04.png'), url('images/Symbols-06.png');
-    background-position: calc(50% - 646px) 524px, calc(50% + 413px) 308px;
+    background-image: url(images/Symbols-05.png), url(images/Symbols-03.png), url(images/Symbols-03.png), url(images/Symbols-04.png), url(images/Symbols-06.png);
+    background-position: calc(50% - 890px) 403px, calc(50% + 577px) 1062px, calc(50% + 959px) 11px, calc(50% + -877px) 1757px, calc(50% + 648px) 2070px;
     background-repeat: no-repeat;
-    
+    background-size: 496px, 124px, 930px, 1200px, 508px;
+}
+
+.home-background-4{
+    background-image: url('images/Symbols-04.png');
+    background-position: calc(50% - -937px) -347px;
+    background-repeat: no-repeat;
+    background-size: 985px;
+}
+
+.aura-reading {
+    padding-bottom: 1100px;
 }
 
 .about-title{
@@ -342,4 +355,9 @@ body {
 .footer-logo img{
     height: 20px;
     padding: 0px 0px;
+}
+
+.footer-logo a{
+    padding-left: 10px;
+    padding-right: 10px;
 }
