@@ -8,7 +8,44 @@
 body {
     font-family: arcon;
     background-color: #E2D4D0;
-    /* background-image: url(images/Background.png) ; */
+
+    background-image: 
+        url('images/Symbols-04.png'),
+        url('images/Symbols-05.png'),
+        url('images/Symbols-03.png'),
+        url('images/Symbols-06.png'),
+        url('images/Symbols-04.png'),
+        url('images/Symbols-05.png'),
+        url('images/Symbols-03.png'),
+        url('images/Symbols-03.png'),
+        url('images/Symbols-04.png'), 
+        url('images/Symbols-06.png');
+        
+    background-position:
+        calc(50% - 930px) calc(50% - 1482px), 
+        calc(50% - -581px) calc(50% - 1821px), 
+        calc(50% - -926px) calc(50% - 1024px), 
+        calc(50% - 789px) calc(50% - 445px), 
+        calc(50% - -908px) calc(50% - 2px),
+        calc(50% - 888px) calc(100% - 1660px),
+        calc(50% - -956px) calc(100% - 1660px),
+        calc(50% - -574px) calc(100% - 1416px),
+        calc(100% - 1225px) calc(100% - -352px),
+        calc(100% - 48px) calc(100% - -8px);
+
+    background-repeat: no-repeat;
+
+    background-size: 
+        951px,
+        221px,
+        537px,
+        517px,
+        936px,
+        496px,
+        930px,
+        124px,
+        1200px,
+        508px;
 
 }
 
@@ -192,35 +229,6 @@ body {
     border-radius: 5%;
 }
 
-.home-background-1{
-    background-image: url('images/Symbols-04.png'), url('images/Symbols-05.png');
-    background-position: calc(50% - 932px) 390px, calc(50% - -1062px) 41px;
-    background-repeat: no-repeat;
-    background-size: 951px, 367px;
-    
-}
-
-.home-background-2{
-    background-image: url(images/Symbols-06.png), url(images/Symbols-04.png);
-    background-position: calc(50% - 790px) 390px, calc(50% + 909px) 651px;
-    background-repeat: no-repeat;
-    background-size: 529px, 931px;
-}    
-
-.home-background-3{
-    background-image: url(images/Symbols-05.png), url(images/Symbols-03.png), url(images/Symbols-03.png), url(images/Symbols-04.png), url(images/Symbols-06.png);
-    background-position: calc(50% - 890px) 403px, calc(50% + 577px) 1062px, calc(50% + 959px) 11px, calc(50% + -877px) 1757px, calc(50% + 648px) 2070px;
-    background-repeat: no-repeat;
-    background-size: 496px, 124px, 930px, 1200px, 508px;
-}
-
-.home-background-4{
-    background-image: url('images/Symbols-04.png');
-    background-position: calc(50% - -937px) -347px;
-    background-repeat: no-repeat;
-    background-size: 985px;
-}
-
 .aura-reading {
     padding-bottom: 1100px;
 }
@@ -313,7 +321,7 @@ body {
 
 .about-featured-at{
     background-color: #D9CACB;
-    margin-bottom: 200px;
+    margin-bottom: 38px;
 }
 
 .about-featured-images{
