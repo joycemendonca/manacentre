@@ -1,0 +1,62 @@
+@media screen and (max-width: 1400px) {
+    .about-images img {
+        padding: 0px 42px;
+    }
+
+    .about-featured-images img{
+        padding: 0px 115px;
+    }
+
+
+}
+
+@media screen and (max-width: 1200px){
+    .about-images img{
+        padding: 0px 30px;
+        width: 270px;
+        height: 270px;
+    }
+
+    .about-client-avaliations p {
+        padding: 10px 30px 10px;
+        background-color: #D9CACB;
+        text-align: center;
+        font-family: arcon-regular;
+        color: #937668;
+        line-height: 27px;
+        font-size: 16px;
+    }    
+
+    .images-link {
+        text-align: center;
+        color: #3B296B;
+        font-size: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }    
+
+    .about-title p{
+        font-size: 90px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .about-featured-images img{
+        height: 32px;
+              
+    }
+
+    .about-content-2 {
+        padding: 10px 0px 39px;
+        background-color: #D9CACB;
+        text-align: center;
+        font-family: arcon-regular;
+        color: #937668;
+        line-height: 49px;
+        font-size: 30px;
+    }    
+        
+        
+    
+}
+
