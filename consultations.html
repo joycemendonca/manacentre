@@ -2,10 +2,19 @@
 <html lang="en">
 <head>
     <title>MANA - Centre for Artistic & Spiritual Development</title>
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="desktop.css">
-    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/glider.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/desktop.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <style>
+        .menu .link-consultations{
+            background-image: url(http://placehold.it/50x3);
+            background-repeat: no-repeat;
+            background-position: bottom;
+            background-size: 100% 3px;
+        }
+    </style>
 </head>
 <body>
     <iframe src="header.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
@@ -88,10 +97,7 @@
         </div>
         
     </div>
-    
+
     <iframe src="footer.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
-
-
-    
 </body>
 </html>

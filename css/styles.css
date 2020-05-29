@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: arcon;
-    src: url(fonts/Arcon-Regular.otf);
+    src: url(../fonts/Arcon-Regular.otf);
     
 }
 
@@ -10,16 +10,16 @@ body {
     background-color: #E2D4D0;
 
     background-image: 
-        url('images/Symbols-04.png'),
-        url('images/Symbols-05.png'),
-        url('images/Symbols-03.png'),
-        url('images/Symbols-06.png'),
-        url('images/Symbols-04.png'),
-        url('images/Symbols-05.png'),
-        url('images/Symbols-03.png'),
-        url('images/Symbols-03.png'),
-        url('images/Symbols-04.png'), 
-        url('images/Symbols-06.png');
+        url('../images/Symbols-04.png'),
+        url('../images/Symbols-05.png'),
+        url('../images/Symbols-03.png'),
+        url('../images/Symbols-06.png'),
+        url('../images/Symbols-04.png'),
+        url('../images/Symbols-05.png'),
+        url('../images/Symbols-03.png'),
+        url('../images/Symbols-03.png'),
+        url('../images/Symbols-04.png'), 
+        url('../images/Symbols-06.png');
         
     background-position:
         calc(50% - 930px) calc(50% - 1482px), 
@@ -82,23 +82,23 @@ body {
     padding: 10px 0;
 }
 
+
 .menu a{
     text-decoration: none;
-    color:#937668;
-    padding: 0px 60px 0px 60px;
-    
+    color: #937668;
+    margin: 0px 60px 0px 60px;    
+    padding-bottom: 7px;    
 }
 
 .menu a:hover{
-    color: indigo;
+    background-image: url(http://placehold.it/50x3);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 3px;
 }
 
 .menu .sub-menu:hover .sub-menu-2{
     display: inline;
-}
-
-.menu .link-active{
-    /* color: indigo; */
 }
 
 .sub-menu{
@@ -145,7 +145,7 @@ body {
 .banner-1{
     width: 100%;
     height: 450px;
-    background-image: url('images/Image\ 1_Tarot.jpg');
+    background-image: url('../images/Image\ 1_Tarot.jpg');
     background-position: center;
     background-size: cover;
     margin-top: 50px;
@@ -154,7 +154,7 @@ body {
 .banner-2{
     width: 100%;
     height: 450px;
-    background-image: url('images/Image\ 2_Apometry_low.jpg');
+    background-image: url('../images/Image\ 2_Apometry_low.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -162,7 +162,7 @@ body {
 .banner-3{
     width: 100%;
     height: 450px;
-    background-image: url('images/AuraReading_Whole.jpg');
+    background-image: url('../images/AuraReading_Whole.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -170,7 +170,7 @@ body {
 .banner-4{
     width: 100%;
     height: 450px;
-    background-image: url('images/About_Deusa-dos-céus.jpeg');
+    background-image: url('../images/About_Deusa-dos-céus.jpeg');
     background-position: center;
     background-size: cover;
 }
@@ -241,7 +241,7 @@ body {
 }
 
 .separator{
-    background-image: url(images/separator-stars.png);
+    background-image: url('../images/separator-stars.png');
     background-repeat: no-repeat;
     height: 78px;
     width: 170px;
@@ -331,6 +331,10 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 0px 118px;
+}
+
+.line-footer{
+
 }
 
 .footer{
