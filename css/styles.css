@@ -64,6 +64,7 @@ body {
 
 .logo{
     text-align: center;
+    margin-bottom: 30px;
    
 }
 
@@ -203,6 +204,10 @@ body {
 .home-input-courses input{
     width: 300px;
     border: 1px solid #937668;
+}
+
+.select-courses{
+    text-align: center;
 }
 
 .shop-button{
