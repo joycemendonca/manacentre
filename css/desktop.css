@@ -36,9 +36,9 @@
     }    
 
     .about-title p{
-        font-size: 90px;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        font-size: 65px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .about-featured-images img{
@@ -123,7 +123,7 @@
             padding: 0px 75px;
         }
 
-        .line-footer{
+        .line-footer img{
             height: 30px;
         }
     }
@@ -217,7 +217,7 @@
             width: 134px;
         }    
 
-        .line-footer{
+        .line-footer img{
             height: 21px;
         }
 

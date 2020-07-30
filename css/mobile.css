@@ -16,7 +16,7 @@
     }
 
     .about-featured-images{
-       flex-direction: column;
+       /* flex-direction: column; */
        text-align: center;
     }
 
@@ -45,9 +45,14 @@
         padding: 20px 0px 20px 0px;
     }
 
-    .footer a{
-    padding: 35px 20px;
-    font-size: 15px;
-    
+    .footer a {
+        padding: 20px 5px;
+        font-size: 12px;
     }
+
+    .line-footer{
+        height: 20px;
+    }
+
+    
 }

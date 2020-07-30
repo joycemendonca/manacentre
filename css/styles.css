@@ -187,8 +187,11 @@ body {
 
     
 .home-text-title{
-    font-size: 69px;
-    color: #3B296B;
+        padding-top: 20px;
+        padding-bottom: 0px;
+        color: #937668;
+        font-size: 60px;
+    }
     
 }
 
@@ -246,7 +249,7 @@ body {
     padding-top: 33px;
     padding-bottom: 50px;
     color: #937668;
-    font-size: 69px;
+    font-size: 60px;
 }
 
 .about-title a{
@@ -349,8 +352,8 @@ body {
 }
 
 .about-featured-images img{
-    height: 30px;
-    width: 200px;
+    height: 26px;
+    width: 160px;
     margin-bottom: 70px;
     margin-top: -53px;
     margin-left: auto;
@@ -358,8 +361,9 @@ body {
     padding: 0px 118px;
 }
 
-.line-footer{
-
+.line-footer img{
+    height: 34px;
+    width: 100%;
 }
 
 .table-paypal{
