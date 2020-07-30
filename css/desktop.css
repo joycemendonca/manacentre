@@ -60,3 +60,175 @@
     
 }
 
+    @media screen and (max-width: 1158px){
+        .footer a {
+            text-decoration: none;
+            color: #937668;
+            padding: 0px 14px;
+            font-size: 12px;
+        }
+        
+        .about-title p {
+            font-size: 65px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .about-images img {
+            padding: 0px 30px;
+            width: 255px;
+            height: 255px;
+        }
+
+        .home-text-title {
+            font-size: 69px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            
+        }
+
+        .about-content-2 {
+            padding: 10px 0px 39px;
+            background-color: #D9CACB;
+            text-align: center;
+            font-family: arcon-regular;
+            color: #937668;
+            line-height: 32px;
+            font-size: 23px;
+        }
+
+        .avaliations p {
+            padding: 10px 30px 10px;
+            background-color: #D9CACB;
+            text-align: center;
+            font-family: arcon-regular;
+            color: #937668;
+            line-height: 24px;
+            font-size: 14px;
+        }
+
+        .home-text-title {
+            font-size: 55px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+
+        .about-featured-images img {
+            height: 27px;
+            width: 165px;
+            margin-bottom: 70px;
+            margin-top: -53px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0px 75px;
+        }
+
+        .line-footer{
+            height: 30px;
+        }
+    }
+
+    @media screen and (max-width: 1001px){
+        .footer a {
+            text-decoration: none;
+            color: #937668;
+            padding: 0px 8px;
+            font-size: 10px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #937668;
+            margin: 0px 5px 0px 60px;
+            padding-bottom: 7px;
+        }
+
+        .about-client-avaliations p {
+            padding: 10px 30px 10px;
+            background-color: #D9CACB;
+            text-align: center;
+            font-family: arcon-regular;
+            color: #937668;
+            line-height: 21px;
+            font-size: 13px;
+        }
+
+        .about-client-avaliations p {
+            padding: 10px 30px 10px;
+            background-color: #D9CACB;
+            text-align: center;
+            font-family: arcon-regular;
+            color: #937668;
+            line-height: 21px;
+            font-size: 13px;
+        }
+        
+        .about-content-2 {
+            padding: 10px 0px 39px;
+            background-color: #D9CACB;
+            text-align: center;
+            font-family: arcon-regular;
+            color: #937668;
+            line-height: 26px;
+            font-size: 21px;
+        }
+               
+    }
+    
+    @media screen and (max-width: 815px){
+
+        .logo img {
+            width: 320px;
+            height: 140px;
+        }
+
+        .about-title p {
+            font-size: 55px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .about-images img {
+            padding: 0px 30px;
+            width: 195px;
+            height: 195px;
+        }
+
+        .images-link {
+            text-align: center;
+            color: #3B296B;
+            font-size: 22px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        .about-content-2 {
+            padding: 10px 0px 39px;
+            background-color: #D9CACB;
+            text-align: center;
+            font-family: arcon-regular;
+            color: #937668;
+            line-height: 21px;
+            font-size: 14px;
+        }
+
+        .about-featured-images img {
+            height: 21px;
+            width: 134px;
+        }    
+
+        .line-footer{
+            height: 21px;
+        }
+
+        .footer-logo img {
+            height: 11px;
+            padding: 0px 0px;
+        }
+
+        .about-client-avaliations p{
+            line-height: 13px;
+            font-size: 10px;
+        }
+    }
+    
