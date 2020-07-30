@@ -58,7 +58,7 @@ body {
 }
 
 .social-bar img{
-    height: 20px;
+    height: 17px;
     padding-right: 8px;
 }
 
@@ -68,9 +68,9 @@ body {
    
 }
 
-.logo img{
-    width: 640px;
-    height: 295px;
+.logo img {
+    width: 400px;
+    height: 180px;
 }
 
 .menu{
@@ -145,7 +145,7 @@ body {
 
 .banner-1{
     width: 100%;
-    height: 450px;
+    height: 350px;
     background-image: url('../images/Image\ 1_Tarot.jpg');
     background-position: center;
     background-size: cover;
@@ -154,7 +154,7 @@ body {
 
 .banner-2{
     width: 100%;
-    height: 450px;
+    height: 350px;
     background-image: url('../images/Image\ 2_Apometry_low.jpg');
     background-position: center;
     background-size: cover;
@@ -162,7 +162,7 @@ body {
 
 .banner-3{
     width: 100%;
-    height: 450px;
+    height: 350px;
     background-image: url('../images/AuraReading_Whole.jpg');
     background-position: center;
     background-size: cover;
@@ -170,7 +170,7 @@ body {
 
 .banner-4{
     width: 100%;
-    height: 450px;
+    height: 350px;
     background-image: url('../images/About_Deusa-dos-céus.jpeg');
     background-position: center;
     background-size: cover;
@@ -227,18 +227,26 @@ body {
 }
 
 .aura-reading {
-    padding-bottom: 1100px;
+    /* padding-bottom: 1100px; */
 }
 
 .about-title{
     text-align: center;
 }
 
-.about-title p{
-    padding-top: 70px;
-    padding-bottom: 70px;
+.about-title p {
+    padding-top: 33px;
+    padding-bottom: 50px;
     color: #937668;
-    font-size: 100px;
+    font-size: 69px;
+}
+
+.about-title a{
+    padding-top: 33px;
+    padding-bottom: 50px;
+    color: #937668;
+    font-size: 69px; 
+    text-decoration: none;
 }
 
 .about-separator{
@@ -266,9 +274,9 @@ body {
     justify-content: center;
 }
 
-.about-images img{
-    height: 350px;
-    width: 350px;
+.about-images img {
+    height: 275px;
+    width: 275px;
     padding: 0px 100px;
 }
 
@@ -278,22 +286,29 @@ body {
     font-size: 45px;
 }
 
+.about-images a{
+    text-align: center;
+    color: #3B296B;
+    font-size: 45px;
+    text-decoration: none;
+}
+
 .images-link{
     text-align: center;
     color: #3B296B;
-    font-size: 40px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    font-size: 35px;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
-.about-content-2{
-    padding: 20px 0px 70px;
+.about-content-2 {
+    padding: 1px 0px 35px;
     background-color: #D9CACB;
     text-align: center;
     font-family: arcon-regular;
     color: #937668;
-    line-height: 56px;
-    font-size: 41px;
+    line-height: 35px;
+    font-size: 25px;
 }
 
 .about-client-avaliations p{
@@ -302,8 +317,8 @@ body {
     text-align: center;
     font-family: arcon-regular;
     color: #937668;
-    line-height: 31px;
-    font-size: 20px;
+    line-height: 26px;
+    font-size: 17px;
 }
 
 .about-client-avaliations .avaliations-author {
@@ -329,9 +344,9 @@ body {
 }
 
 .about-featured-images img{
-    height: 36px;
-    width: 230px;
-    margin-bottom: 121px;
+    height: 30px;
+    width: 200px;
+    margin-bottom: 70px;
     margin-top: -53px;
     margin-left: auto;
     margin-right: auto;
@@ -340,6 +355,10 @@ body {
 
 .line-footer{
 
+}
+
+.table-paypal{
+    margin: auto;
 }
 
 .footer{
@@ -362,7 +381,7 @@ body {
 }
 
 .footer-logo img{
-    height: 20px;
+    height: 17px;
     padding: 0px 0px;
 }
 
