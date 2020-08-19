@@ -26,7 +26,7 @@ body {
         calc(50% - -581px) calc(50% - 1821px), 
         calc(50% - -926px) calc(50% - 1024px), 
         calc(50% - 789px) calc(50% - 445px), 
-        calc(50% - -908px) calc(50% - 2px),
+        calc(50% - -908px) calc(50% - -784px),
         calc(50% - 888px) calc(100% - 1660px),
         calc(50% - -956px) calc(100% - 1660px),
         calc(50% - -574px) calc(100% - 1416px),
@@ -92,10 +92,10 @@ body {
 }
 
 .menu a:hover{
-    background-image: url(/images/Bottom-line.png);
+    background-image: url(/images/Menu-line.png);
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: 100% 4px;
+    background-size: 100% 1px;
 }
 
 .menu .sub-menu:hover .sub-menu-2{
@@ -353,7 +353,7 @@ body {
 
 .about-featured-images img{
     height: 26px;
-    width: 160px;
+    width: 135px;
     margin-bottom: 70px;
     margin-top: -53px;
     margin-left: auto;

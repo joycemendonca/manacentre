@@ -13,8 +13,8 @@
 @media screen and (max-width: 1200px){
     .about-images img{
         padding: 0px 30px;
-        width: 270px;
-        height: 270px;
+        width: 240px;
+        height: 240px;
     }
 
     .about-client-avaliations p {
@@ -30,19 +30,19 @@
     .images-link {
         text-align: center;
         color: #3B296B;
-        font-size: 30px;
+        font-size: 20px;
         padding-top: 30px;
         padding-bottom: 30px;
     }    
 
     .about-title p{
-        font-size: 65px;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        font-size: 50px;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
 
     .about-featured-images img{
-        height: 32px;
+        height: 24px;
               
     }
 
@@ -52,8 +52,8 @@
         text-align: center;
         font-family: arcon-regular;
         color: #937668;
-        line-height: 49px;
-        font-size: 30px;
+        line-height: 19px;
+        font-size: 19px;
     }    
         
         
@@ -69,19 +69,19 @@
         }
         
         .about-title p {
-            font-size: 65px;
-            padding-top: 20px;
-            padding-bottom: 20px;
+            font-size: 40px;
+            padding-top: 30px;
+            padding-bottom: 36px;
         }
 
         .about-images img {
             padding: 0px 30px;
-            width: 255px;
-            height: 255px;
+            width: 235px;
+            height: 235px;
         }
 
         .home-text-title {
-            font-size: 69px;
+            font-size: 40px;
             padding-top: 0px;
             padding-bottom: 0px;
             
@@ -93,8 +93,8 @@
             text-align: center;
             font-family: arcon-regular;
             color: #937668;
-            line-height: 32px;
-            font-size: 23px;
+            line-height: 19px;
+            font-size: 19px;
         }
 
         .avaliations p {
@@ -107,15 +107,10 @@
             font-size: 14px;
         }
 
-        .home-text-title {
-            font-size: 55px;
-            padding-top: 0px;
-            padding-bottom: 0px;
-        }
-
+        
         .about-featured-images img {
-            height: 27px;
-            width: 165px;
+            height: 20px;
+            width: 115px;
             margin-bottom: 70px;
             margin-top: -53px;
             margin-left: auto;
@@ -129,6 +124,12 @@
     }
 
     @media screen and (max-width: 1001px){
+
+        .logo img {
+            width: 355px;
+            height: 155px;
+        }
+
         .footer a {
             text-decoration: none;
             color: #937668;
@@ -169,8 +170,19 @@
             text-align: center;
             font-family: arcon-regular;
             color: #937668;
-            line-height: 26px;
-            font-size: 21px;
+            line-height: 18px;
+            font-size: 18px;
+        }
+
+        .separator{
+            height: 56px;
+            width: 110px;
+        }
+
+        .about-images img {
+            padding: 0px 30px;
+            width: 225px;
+            height: 225px;
         }
                
     }
@@ -183,7 +195,7 @@
         }
 
         .about-title p {
-            font-size: 55px;
+            font-size: 25px;
             padding-top: 20px;
             padding-bottom: 20px;
         }
@@ -197,9 +209,9 @@
         .images-link {
             text-align: center;
             color: #3B296B;
-            font-size: 22px;
-            padding-top: 30px;
-            padding-bottom: 30px;
+            font-size: 18px;
+            padding-top: 20px;
+            padding-bottom: 20px;
         }
 
         .about-content-2 {
@@ -208,8 +220,8 @@
             text-align: center;
             font-family: arcon-regular;
             color: #937668;
-            line-height: 21px;
-            font-size: 14px;
+            line-height: 17px;
+            font-size: 17px;
         }
 
         .about-featured-images img {
