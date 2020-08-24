@@ -21,7 +21,7 @@
         padding: 10px 30px 10px;
         background-color: #D9CACB;
         text-align: center;
-        font-family: arcon-regular;
+        font-family: arcon;
         color: #937668;
         line-height: 27px;
         font-size: 16px;
@@ -47,13 +47,13 @@
     }
 
     .about-content-2 {
-        padding: 10px 0px 39px;
+        padding: 10px 0px 44px;
         background-color: #D9CACB;
         text-align: center;
-        font-family: arcon-regular;
+        /* font-family: arcon-regular; */
         color: #937668;
         line-height: 19px;
-        font-size: 19px;
+        font-size: 17px;
     }    
         
         
@@ -88,20 +88,20 @@
         }
 
         .about-content-2 {
-            padding: 10px 0px 39px;
+            padding: 10px 0px 44px;
             background-color: #D9CACB;
             text-align: center;
-            font-family: arcon-regular;
+            font-family: arcon;
             color: #937668;
             line-height: 19px;
-            font-size: 19px;
+            font-size: 17px;
         }
 
         .avaliations p {
             padding: 10px 30px 10px;
             background-color: #D9CACB;
             text-align: center;
-            font-family: arcon-regular;
+            /* font-family: arcon-regular; */
             color: #937668;
             line-height: 24px;
             font-size: 14px;
@@ -148,7 +148,7 @@
             padding: 10px 30px 10px;
             background-color: #D9CACB;
             text-align: center;
-            font-family: arcon-regular;
+            font-family: arcon;
             color: #937668;
             line-height: 21px;
             font-size: 13px;
@@ -158,17 +158,17 @@
             padding: 10px 30px 10px;
             background-color: #D9CACB;
             text-align: center;
-            font-family: arcon-regular;
+            /* font-family: arcon-regular; */
             color: #937668;
             line-height: 21px;
             font-size: 13px;
         }
         
         .about-content-2 {
-            padding: 10px 0px 39px;
+            padding: 10px 0px 43px;
             background-color: #D9CACB;
             text-align: center;
-            font-family: arcon-regular;
+            font-family: arcon;
             color: #937668;
             line-height: 18px;
             font-size: 18px;
@@ -215,13 +215,13 @@
         }
 
         .about-content-2 {
-            padding: 10px 0px 39px;
+            padding: 10px 0px 42px;
             background-color: #D9CACB;
             text-align: center;
-            font-family: arcon-regular;
+            /* font-family: arcon-regular; */
             color: #937668;
             line-height: 17px;
-            font-size: 17px;
+            font-size: 15px;
         }
 
         .about-featured-images img {

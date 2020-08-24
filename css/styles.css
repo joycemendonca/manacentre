@@ -1,8 +1,7 @@
 
 @font-face {
-    font-family: arcon;
-    src: url(../fonts/Arcon-Regular.otf);
-    
+    font-family: 'arcon';
+    src: url(../fonts/Arcon-Regular.otf) format("opentype");
 }
 
 body {
@@ -310,20 +309,20 @@ body {
 }
 
 .about-content-2 {
-    padding: 1px 0px 20px;
+    padding: 1px 0px 45px;
     background-color: #D9CACB;
     text-align: center;
-    font-family: arcon-regular;
+    /* font-family: arcon-regular; */
     color: #937668;
     line-height: 20px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .about-client-avaliations p{
     padding: 20px 40px 20px;
     background-color: #D9CACB;
     text-align: center;
-    font-family: arcon-regular;
+    /* font-family: arcon-regular; */
     color: #937668;
     line-height: 26px;
     font-size: 17px;
