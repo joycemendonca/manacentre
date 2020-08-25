@@ -397,3 +397,14 @@ body {
     padding-left: 10px;
     padding-right: 10px;
 }
+
+.image-center{
+    background-image: url(../images/738bfa64-2862-4850-987c-6c08c86f5feb.png);
+    width: 450px;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
