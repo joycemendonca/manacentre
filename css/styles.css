@@ -145,7 +145,7 @@ body {
 .banner-1{
     width: 100%;
     height: 350px;
-    background-image: url('../images/Image\ 1_Tarot.jpg');
+    background-image: url('../images/tarot-banner.jpg');
     background-position: center;
     background-size: cover;
     margin-top: 50px;
@@ -154,7 +154,7 @@ body {
 .banner-2{
     width: 100%;
     height: 350px;
-    background-image: url('../images/Image\ 2_Apometry_low.jpg');
+    background-image: url('../images/apometry-banner.jpeg');
     background-position: center;
     background-size: cover;
 }
@@ -351,8 +351,8 @@ body {
 }
 
 .about-featured-images img{
-    height: 26px;
-    width: 135px;
+    height: 21px;
+    width: 119px;
     margin-bottom: 70px;
     margin-top: -53px;
     margin-left: auto;
