@@ -2,10 +2,14 @@ function onHeaderLoaded() {
     $('.subscribe-button').on('click', function(){
         $('.pop-up-subscribe').css('display','flex')
     })
-}
-// function onHeaderLoaded(){
+
     $('.close-button').on('click', function(){
-        $('.pop-up-subscribe').css('display', 'block')
+        $('.pop-up-subscribe').css('display', 'none')
     })
-// }
-    
+
+    $('.pop-up-subscribe').on('click', function(event){
+        if ($(event.target).hasClass('pop-up-subscribe')) {
+            $('.pop-up-subscribe').css('display', 'none')
+        }
+    })
+}
