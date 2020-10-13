@@ -7,45 +7,8 @@
 body {
     font-family: arcon;
     background-color: #E2D4D0;
-
-    background-image: 
-        url('../images/Symbols-04.png'),
-        url('../images/Symbols-05.png'),
-        url('../images/Symbols-03.png'),
-        url('../images/Symbols-06.png'),
-        url('../images/Symbols-04.png'),
-        url('../images/Symbols-05.png'),
-        url('../images/Symbols-03.png'),
-        url('../images/Symbols-03.png'),
-        url('../images/Symbols-04.png'), 
-        url('../images/Symbols-06.png');
-        
-    background-position:
-        calc(50% - 930px) calc(50% - 1482px), 
-        calc(50% - -581px) calc(50% - 1821px), 
-        calc(50% - -926px) calc(50% - 1024px), 
-        calc(50% - 789px) calc(50% - 445px), 
-        calc(50% - -908px) calc(50% - -784px),
-        calc(50% - 888px) calc(100% - 1660px),
-        calc(50% - -956px) calc(100% - 1660px),
-        calc(50% - -574px) calc(100% - 1416px),
-        calc(100% - 1225px) calc(100% - -352px),
-        calc(100% - 48px) calc(100% - -8px);
-
-    background-repeat: no-repeat;
-
-    background-size: 
-        951px,
-        221px,
-        537px,
-        517px,
-        936px,
-        496px,
-        930px,
-        124px,
-        1200px,
-        508px;
-
+   
+   
 }
 
 h4{
@@ -462,42 +425,7 @@ h4{
 }
 
 .parallax{
-    background-image: 
-        url('../images/Symbols-04.png'),
-        url('../images/Symbols-05.png'),
-        url('../images/Symbols-03.png'),
-        url('../images/Symbols-06.png'),
-        url('../images/Symbols-04.png'),
-        url('../images/Symbols-05.png'),
-        url('../images/Symbols-03.png'),
-        url('../images/Symbols-03.png'),
-        url('../images/Symbols-04.png'), 
-        url('../images/Symbols-06.png');
-        
-    background-position:
-        calc(50% - 930px) calc(50% - 1482px), 
-        calc(50% - -581px) calc(50% - 1821px), 
-        calc(50% - -926px) calc(50% - 1024px), 
-        calc(50% - 789px) calc(50% - 445px), 
-        calc(50% - -908px) calc(50% - -784px),
-        calc(50% - 888px) calc(100% - 1660px),
-        calc(50% - -956px) calc(100% - 1660px),
-        calc(50% - -574px) calc(100% - 1416px),
-        calc(100% - 1225px) calc(100% - -352px),
-        calc(100% - 48px) calc(100% - -8px);
-
-    background-size: 
-        951px,
-        221px,
-        537px,
-        517px,
-        936px,
-        496px,
-        930px,
-        124px,
-        1200px,
-        508px;
-
+    background-image: url(../images/Background.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
