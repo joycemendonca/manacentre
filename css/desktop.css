@@ -202,8 +202,12 @@
             height: 140px;
         }
 
+        .menu {
+            font-size: 23px;
+        }
+
         .about-title p {
-            font-size: 25px;
+            font-size: 40px;
             padding-top: 20px;
             padding-bottom: 20px;
         }
