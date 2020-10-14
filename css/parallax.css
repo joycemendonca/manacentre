@@ -425,11 +425,23 @@ h4{
 }
 
 .parallax{
-    background-image: url(../images/Background.png);
-    background-attachment: fixed;
+    background-image: url(../images/Symbols-04.png);
     background-repeat: no-repeat;
-    background-size: cover;
-
-    
-    
+    background-position: calc(50% - 930px) calc(50% - 1482px);
+    background-size:  951px;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
 }
+
+.shape.hexa{
+    width: 50%;
+    height: 50%;
+    top: 55%;
+    left: 75%;
+    -webkit-transform: rotate(50deg);
+    transform: rotate(50deg);
+}
+
