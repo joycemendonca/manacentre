@@ -85,7 +85,7 @@ h4{
     text-align: center;
     margin-top: -8px;
     margin-bottom: 25px;
-    background: #E2D4D0;
+    background-color: transparent;
     padding: 10px 0;
 }
 
@@ -284,22 +284,22 @@ h4{
 
 .about-title{
     text-align: center;
+    padding: 70px;
 }
 
-.about-title p {
-    padding-top: 33px;
-    padding-bottom: 33px;
-    color: #937668;
-    font-size: 55px;
-}
 
 .about-title a{
-    padding-top: 33px;
-    padding-bottom: 50px;
     color: #937668;
-    font-size: 69px; 
+    font-size: 55px; 
     text-decoration: none;
 }
+
+.about-title p{
+    color: #937668;
+    font-size: 55px; 
+    margin-top: auto;
+}
+
 
 .about-separator{
     position: relative;
@@ -380,6 +380,10 @@ h4{
     margin-left: 200px;
     margin-right: 200px;
 }
+
+/* .home-background-4{
+    height: auto;
+} */
 
 .about-featured-at{
     background-color: #D9CACB;
