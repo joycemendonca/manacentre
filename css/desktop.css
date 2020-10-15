@@ -48,6 +48,7 @@
         508px;
 
     }
+
     .about-images img {
         padding: 0px 42px;
     }
@@ -174,6 +175,47 @@
 
     @media screen and (max-width: 1001px){
 
+        body{
+            background-image: 
+            url('../images/Symbols-04.png'),
+            url('../images/Symbols-05.png'),
+            url('../images/Symbols-03.png'),
+            url('../images/Symbols-06.png'),
+            url('../images/Symbols-04.png'),
+            url('../images/Symbols-05.png'),
+            url('../images/Symbols-03.png'),
+            url('../images/Symbols-03.png'),
+            url('../images/Symbols-04.png'), 
+            url('../images/Symbols-06.png');
+            
+        background-position:
+            calc(50% - 557px) calc(50% - 1455px), 
+            calc(50% - -449px) calc(50% - 1750px), 
+            calc(50% - -868px) calc(50% - 1024px), 
+            calc(50% - -483px) calc(50% - 416px), 
+            calc(50% - -587px) calc(50% - -409px),
+            calc(50% - 665px) calc(100% - 1986px),
+            calc(50% - 548px) calc(100% - 1075px),
+            calc(50% - -216px) calc(100% - 1924px),
+            calc(100% - 1048px) calc(100% - -380px),
+            calc(100% - 48px) calc(100% - -8px);
+    
+        background-repeat: no-repeat;
+    
+        background-size: 
+            817px,
+            129px,
+            813px,
+            316px,
+            464px,
+            365px,
+            346px,
+            78px,
+            890px,
+            508px;
+    
+        }
+
         .logo img {
             width: 355px;
             height: 155px;
@@ -237,6 +279,47 @@
     }
     
     @media screen and (max-width: 815px){
+
+        body{
+            background-image: 
+            url('../images/Symbols-04.png'),
+            url('../images/Symbols-05.png'),
+            url('../images/Symbols-03.png'),
+            url('../images/Symbols-06.png'),
+            url('../images/Symbols-04.png'),
+            url('../images/Symbols-05.png'),
+            url('../images/Symbols-03.png'),
+            url('../images/Symbols-03.png'),
+            url('../images/Symbols-04.png'), 
+            url('../images/Symbols-06.png');
+            
+        background-position:
+            calc(50% - 543px) calc(50% - 1325px), 
+            calc(50% - -301px) calc(50% - 1254px), 
+            calc(50% - -412px) calc(50% - 833px), 
+            calc(50% - -369px) calc(50% - 348px), 
+            calc(50% - -587px) calc(50% - -409px),
+            calc(50% - 337px) calc(100% - 1540px),
+            calc(50% - 375px) calc(100% - 877px),
+            calc(50% - -216px) calc(100% - 1924px),
+            calc(100% - 1048px) calc(100% - -380px),
+            calc(100% - 48px) calc(100% - -8px);
+    
+        background-repeat: no-repeat;
+    
+        background-size: 
+            817px,
+            129px,
+            436px,
+            316px,
+            464px,
+            396px,
+            346px,
+            78px,
+            890px,
+            508px;
+    
+        }
 
         .logo img {
             width: 320px;
