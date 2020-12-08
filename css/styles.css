@@ -51,7 +51,10 @@ body {
 h4{
     color: white;
 }
-
+ 
+a{
+    text-decoration: none;
+}
 
 .social-bar{
     display: flex;
