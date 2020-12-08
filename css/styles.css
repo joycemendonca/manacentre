@@ -54,6 +54,7 @@ h4{
  
 a{
     text-decoration: none;
+    color: white;
 }
 
 .social-bar{
@@ -232,6 +233,38 @@ a{
     width: 100%;
     height: 350px;
     background-image: url('../images/About_Deusa-dos-céus.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-events-1{
+    width: 100%;
+    height: 350px;
+    background-image: url('../images/Image_Events_Social_Healing_Sessions.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-events-2{
+    width: 100%;
+    height: 350px;
+    background-image: url('../images/Image_Events_Wheel_of_The_Year.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-events-3{
+    width: 100%;
+    height: 350px;
+    background-image: url('../images/Image_Events_Magick_Portal.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-products-1{
+    width: 100%;
+    height: 350px;
+    background-image: url('../images/surprise-products.jpg');
     background-position: center;
     background-size: cover;
 }
