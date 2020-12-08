@@ -59,12 +59,19 @@ h4{
     margin-left: 20px;
     margin-top: 20px;
     margin-right: 20px;
+    
 }
 
 .social-bar img{
     height: 17px;
     padding-right: 8px;
+    
 }
+
+.social-bar a img{
+    background-color: transparent;
+}
+
 
 .logo{
     text-align: center;
@@ -184,6 +191,14 @@ h4{
 }
 
 /* end */
+
+.banner img{
+    width: 100%;
+    height: 350px;
+    /* background-image: url('../images/AuraReading_Whole.jpg'); */
+    background-position: center;
+    background-size: cover;
+}
 
 .banner-1{
     width: 100%;
