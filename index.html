@@ -26,6 +26,22 @@
             background-size: 100% 1px;
         }
     </style>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="./js/script.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.carousel').slick({
+                autoplay: true,
+                autoplaySpeed: 5000,
+                arrows: false,
+                                
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -72,21 +88,21 @@
                     <a href="https://mana.as.me/schedule.php" target="_blank">
                         <img src="images/aura-reading-img.jpeg" alt="">
                     </a>                    
-                    <a href="https://mana.as.me/schedule.php" target="_blank" class="images-link"><br>AURA READING</a>
+                    <a href="https://mana.as.me/schedule.php" target="_blank" class="images-link aura-reading-button"><br>AURA READING</a>
                     <div class="images-link"></div>
                 </div>
                 <div>
                     <a href="https://mana.as.me/schedule.php" target="_blank">
                         <img src="images/About_Tarot-04.jpeg" alt="">
                     </a>                    
-                    <a href="https://mana.as.me/schedule.php" target="_blank" class="images-link"><br>TAROT</a>
+                    <a href="https://mana.as.me/schedule.php" target="_blank" class="images-link tarot-button"><br>TAROT</a>
                     <div class="images-link"></div>
                 </div>
                 <div>
                     <a href="https://mana.as.me/schedule.php" target="_blank">
                         <img src="images/About_Apometry.jpeg" alt="">
                     </a>                      
-                    <a href="https://mana.as.me/schedule.php" target="_blank" class="images-link"><br>APOMETRY</a>
+                    <a href="https://mana.as.me/schedule.php" target="_blank" class="images-link apometry-button"><br>APOMETRY</a>
                     <div class="images-link"></div>
                 </div>
             </div>
@@ -168,14 +184,14 @@
                     <a href="https://mana.as.me/schedule.php" target="_blank">
                         <img src="images/the.universe.of.the.tarot.2.0.png" alt="">
                     </a>                    
-                    <a href="https://mana.as.me/schedule.php" target="_blank" class="images-link"><br>THE UNIVERSE <br> OF THE TAROT</a>
+                    <a href="https://mana.as.me/schedule.php" target="_blank" class="images-link the-universe-tarot-button"><br>THE UNIVERSE <br> OF THE TAROT</a>
 
                 </div>
                 <div>
                     <a href="https://mana.as.me/schedule.php" target="_blank">
                         <img src="images/darkroom.red.lodge.2.0.png" alt="">
                     </a>                            
-                    <a href="https://mana.as.me/schedule.php" target="_blank" class="images-link"><br>DARKROOM <br>RED LODGE</a>
+                    <a href="https://mana.as.me/schedule.php" target="_blank" class="images-link darkroom-button"><br>DARKROOM <br>RED LODGE</a>
                     <div class="images-link"></div>
 
                 </div>
@@ -183,7 +199,7 @@
                     <a href="https://mana.as.me/schedule.php" target="_blank">
                         <img src="images/About_Oraculo-do-oraculo-04.jpeg" alt="">
                     </a>                     
-                    <a href="https://mana.as.me/schedule.php" target="_blank" class="images-link"><br>THE ORACLE'S <br> ORACLE</a>
+                    <a href="https://mana.as.me/schedule.php" target="_blank" class="images-link the-oracles-button"><br>THE ORACLE'S <br> ORACLE</a>
                     <div class="images-link"></div>
 
                 </div>
@@ -200,7 +216,7 @@
                     <a href="https://mana.as.me/schedule.php" target="_blank">
                         <img src="images/About_Magick-Portal-04.jpeg" alt="">
                     </a>                      
-                    <a href="https://mana.as.me/schedule.php" target="_blank" class="images-link"><br>ABUNDANCE PORTAL <br> RITUAL</a>
+                    <a href="https://mana.as.me/schedule.php" target="_blank" class="images-link abundance-portal-button"><br>ABUNDANCE PORTAL <br> RITUAL</a>
                     <div class="images-link"></div>
 
                 </div>
@@ -208,7 +224,7 @@
                     <a href="https://mana.as.me/schedule.php" target="_blank">
                         <img src="images/About_wheel-of-the-year-04.jpeg" alt="">
                     </a>                      
-                    <a href="https://mana.as.me/schedule.php" target="_blank" class="images-link"><br>WHEEL OF THE <br> YEAR CEREMONIES</a>
+                    <a href="https://mana.as.me/schedule.php" target="_blank" class="images-link wheel-of-the-year-button"><br>WHEEL OF THE <br> YEAR CEREMONIES</a>
                     <div class="images-link"></div>
 
                 </div>
@@ -216,7 +232,7 @@
                     <a href="https://mana.as.me/schedule.php" target="_blank">
                         <img src="images/social-healing-img.jpeg" alt="">
                     </a>                     
-                    <a href="https://mana.as.me/schedule.php" target="_blank" class="images-link"><br>SOCIAL HEALING</a>
+                    <a href="https://mana.as.me/schedule.php" target="_blank" class="images-link social-healing-button"><br>SOCIAL HEALING</a>
                     <div class="images-link"></div>
 
                 </div>
@@ -230,19 +246,19 @@
                 </div>
                 <div class="about-featured-images">
                     <div>
-                        <a href="https://kmbcreative.de/agency/" target="_blank">
+                        <a class="kmb-button" href="https://kmbcreative.de/agency/" target="_blank">
                             <img src="images/KMB.png" alt="">
                         </a>
                            
                     </div>
                     <div>
-                        <a href="https://www.mondlicht-berlin.de/" target="_blank">
+                        <a class="mondlicht-button" href="https://www.mondlicht-berlin.de/" target="_blank">
                             <img src="images/Mondlicht.png" alt="">
                         </a>
                             
                     </div>
                     <div>
-                        <a href="http://www.janainas.org/" target="_blank">
+                        <a class="janainas-button" href="http://www.janainas.org/" target="_blank">
                             <img src="images/Janainas.png" alt="">
                         </a>
                         
@@ -256,24 +272,6 @@
     <iframe src="footer.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove();onHeaderLoaded();"></iframe>
 
     </div>
-
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script src="./js/script.js"></script>
-
-    <script>
-        $(document).ready(function(){
-            $('.carousel').slick({
-                autoplay: true,
-                autoplaySpeed: 5000,
-                arrows: false,
-                                
-            });
-        });
-    </script>
-
-    
 </body>
 
 </html>
