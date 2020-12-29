@@ -162,6 +162,10 @@ a{
 
 /* subscribe buttom */
 
+.subscribe-button{
+    
+}
+
 .pop-up-subscribe{
     position: fixed;
     z-index: 2;

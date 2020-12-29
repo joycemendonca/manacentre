@@ -20,6 +20,11 @@ describe('footer social links', function(){
         cy.get('.whatsapp-icon-footer').should('have.attr', 'href', 'https://api.whatsapp.com/send?phone=4917624856602&text=Hello%20MANA%20Centre,%20I%20have%20a%20question%20...')
     })
 
+    it('When click on the subscribe button it should open subscribe modal', function() {
+        cy.get('.subscribe-button-footer').click()
+        cy.get('.pop-up-subscribe').should('be.visible')
+    })
+
     // it('when click on the subscribe now button it should open subscribe modal', function(){
     //     cy.get('.subscribe-button-footer').should('have.attr', 'target', '_blank')
     //     cy.get('.subscribe-button-footer').should('have.attr', 'href', '')

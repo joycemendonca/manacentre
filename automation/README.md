@@ -4,12 +4,10 @@
 - [x] Done
 
 ## Subscription
-- [ ] When click on the subscribe button it should open subscribe modal
-
-## Modal Subscription
-- [ ] when click on the closed button it should close the modal
+- [x] When click on the subscribe button it should open subscribe modal
+- [x] when click on the closed button it should close the modal
 - [ ] when click on anywhere out the modal, it should close the modal
-- [ ] when click on the subscribe button, it should open this link https://cargocollective.us14.list-manage.com/subscribe/post?u=8b6548a8452f514cfc847df6d&id=6c01ffec27
+- [x] when click on the subscribe button, it should open this link https://cargocollective.us14.list-manage.com/subscribe/post?u=8b6548a8452f514cfc847df6d&id=6c01ffec27
 
 ## Header social links
 - [x] When click on the facebook button it should open this link https://www.facebook.com/mana.centread
@@ -20,8 +18,8 @@
 - [x] When click on the about button it should open the about page 
 - [x] When click on the consultations button it should open the consultations page
 - [x] When click on the events button, it should open the events page
-- [ ] When click on the classes button, it should open the classes page
-- [ ] When click on the products button, it should open the products page
+- [x] When click on the classes button, it should open the classes page
+- [x] When click on the products button, it should open the products page
 
 ## Home/about: Consultations
 - [x] When click on the aura reading button, it should open https://mana.as.me/schedule.php
@@ -55,7 +53,7 @@
 - [x] When click on the facebook button it should open this link https://www.facebook.com/mana.centread
 - [x] When click on the instagram button it should open this link https://www.instagram.com/mana.centre/
 - [x] When click on the whatsapp button it should open whatsapp page in this link and with this message https://api.whatsapp.com/send?phone=4917624856602&text=Hello%20MANA%20Centre,%20I%20have%20a%20question%20...
-- [ ] When click on the subscribe button it should open subscribe modal
+- [x] When click on the subscribe button it should open subscribe modal
 - [ ] when click on the PayPal button, it should open Paypal page 
 
 ## Consultations: Tarot
