@@ -28,6 +28,22 @@
             background-size: 100% 1px;
         }
     </style>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="./js/script.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.carousel').slick({
+                autoplay: true,
+                autoplaySpeed: 5000,
+                arrows: false,
+                                
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -153,22 +169,6 @@
     <iframe src="footer.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove();onHeaderLoaded();"></iframe>
 
     </div>    
-
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script src="./js/script.js"></script>
-
-    <script>
-        $(document).ready(function(){
-            $('.carousel').slick({
-                autoplay: true,
-                autoplaySpeed: 5000,
-                arrows: false,
-                                
-            });
-        });
-    </script>
 </body>
 
 </html>
