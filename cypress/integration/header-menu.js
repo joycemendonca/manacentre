@@ -4,6 +4,7 @@ describe('Header Menu', function() {
     // runs before every `it()` 
     beforeEach(function () {
         cy.visit('https://manacentre.com/')
+        cy.wait(2000)
     })
 
     // this defines each test

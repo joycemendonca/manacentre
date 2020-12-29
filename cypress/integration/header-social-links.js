@@ -1,7 +1,7 @@
 describe('header social links', function(){
     beforeEach(function () {
         cy.visit('https://manacentre.com/')
-      
+        cy.wait(2000)
     })
 
     it('When click on the facebook button it should open facebook page', function() {
