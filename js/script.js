@@ -1,5 +1,5 @@
 function onHeaderLoaded() {
-    $('.subscribe-button').on('click', function(){
+    $('.subscribe-button, .subscribe-button-footer').on('click', function(){
         $('.pop-up-subscribe').css('display','flex')
     })
 
