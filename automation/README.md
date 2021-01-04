@@ -75,8 +75,8 @@
 - [x] when click on the apply now button, it should open whatsapp page with this message https://api.whatsapp.com/send?phone=4917624856602&text=Hello%20MANA%20Centre,%20I%20would%20like%20to%20apply%20to%20the%20Magic%20Portal%20Ritual,%20please.
 
 ## Classes 
-- [x]Apply for a scholarship button
-- [x] Apply Now button
+- [x] when click on the apply now button, it should open whatsapp page https://api.whatsapp.com/send?phone=4917624856602&text=Hello%20MANA%20Centre,%20I%20would%20like%20to%20apply%20to%20the%20Universe%20of%20the%20Tarot,%20please.
+- [x] when click on the scholarship button, it should open whatsapp page https://api.whatsapp.com/send?phone=4917624856602&text=Hello%20MANA%20Centre,%20I%20would%20like%20to%20apply%20for%20a%20Scholarship%20to%20The%20Universe%20of%20of%20the%20Tarot,%20please.
 
 ## Products
 - [x] when click on the GET YOUR VOUCHER NOW button, it should open a whatsapp page with this message https://api.whatsapp.com/send?phone=4917624856602&text=Hello%20MANA%20Centre,%20I%20would%20like%20to%20get%20a%20MANA%20Gift%20Voucher,%20please.

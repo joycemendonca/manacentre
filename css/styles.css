@@ -241,6 +241,30 @@ a{
     background-size: cover;
 }
 
+.banner-reiki{
+    width: 100%;
+    height: 350px;
+    background-image: url('../images/reiki-consultations.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-vibrational-therapy{
+    width: 100%;
+    height: 350px;
+    background-image: url('../images/vibrational-therapy-consultations.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-radionic-table{
+    width: 100%;
+    height: 350px;
+    background-image: url('../images/radionic-table-consultations.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
 .banner-events-1{
     width: 100%;
     height: 350px;
@@ -279,7 +303,7 @@ a{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    line-height: 20px;
+    line-height: 23px;
 }
 
     
@@ -339,7 +363,7 @@ a{
 
 .about-title{
     text-align: center;
-    padding: 70px;
+    padding-top: 70px;
 }
 
 
@@ -450,6 +474,15 @@ a{
     justify-content: center;
     
     
+}
+
+.about-title-featured-at p{
+    color: #937668;
+    font-size: 55px;
+    margin-top: auto;
+    text-align: center;
+    padding-bottom: 35px;
+    padding-top: 25px;
 }
 
 .about-featured-images img{
