@@ -16,7 +16,7 @@
     }
 
     .about-featured-images{
-       /* flex-direction: column; */
+       flex-direction: column;
        text-align: center;
     }
 
