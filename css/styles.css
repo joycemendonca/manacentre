@@ -298,10 +298,8 @@ a{
 }
 
 .attention-message{
+    margin-bottom: 30px;
     color: #3B296B;
-}
-.attention-message p{
-    margin-bottom: 50px;
 }
 
 .home-text{
