@@ -297,6 +297,13 @@ a{
     background-size: cover;
 }
 
+.attention-message{
+    margin-bottom: 70px;
+}
+.attention-message h3{
+    color: #3B296B;
+}
+
 .home-text{
     color: #937668;
     width: 700px;
@@ -305,14 +312,12 @@ a{
     margin-right: auto;
     line-height: 23px;
 }
-
     
 .home-text-title{
-        padding-top: 0px;
-        padding-bottom: 0px;
-        color: #937668;
-        font-size: 48px;
-    
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #937668;
+    font-size: 48px;    
 }
 
 .text-title p{
@@ -359,6 +364,39 @@ a{
 
 .aura-reading {
     /* padding-bottom: 1100px; */
+}
+
+/* .popup-classes{
+    background-color:  rgba(0,0,0,.5); */
+    /* display: none; */
+/* } */
+
+/* .classes-pop-up{
+    position: fixed; */
+            
+    /* z-index: 2; */
+    /* width: 400px;
+    height: auto;
+    background-color:#E2D4D0;
+    top: 0;
+    left: center; */
+    
+    /* justify-content: center;
+    align-items: center; */
+    /* display: none; */
+/* } */
+
+.classes-pop-up h1{
+    color: #937668;
+}
+
+.classes-pop-up h2{
+    color: #3B296B;
+}
+
+.darkroom-course{
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .about-title{
