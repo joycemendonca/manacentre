@@ -13,3 +13,9 @@ function onHeaderLoaded() {
         }
     })
 }
+
+
+
+// function popUp() {
+//     $('.classes-pop-up').css('display', 'none')
+// }
