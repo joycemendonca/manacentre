@@ -1,0 +1,218 @@
+.caw {
+  line-height: 1;
+  width: 840px;
+  margin: auto;
+}
+
+.caw-full {
+  width: 100%;
+}
+
+.caw h2 {
+  font-family: BelyDisplay;
+  font-size: 36px;
+  color: #875d4b;
+  line-height: .8;
+}
+
+.caw h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 50px 0;
+}
+
+
+.caw {
+  font-size: 20px;
+  font-family: Raleway;
+  color: #4d4d4d;
+  line-height: 1.4;
+}
+
+.caw-hero {
+  width: 100%;
+  height: 100vh;
+  background: blue;
+  background-image: url("../images/courses-and-workshops/hero.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.caw .img-center {
+  margin: auto;
+  display: block;
+}
+
+.caw .img-1 {
+  margin: 50px 0;
+}
+
+.caw .text-center {
+  text-align: center;
+}
+
+.caw .box-center {
+  margin: auto;
+}
+
+.caw-info {
+  background: #996f8a;
+  color: white; 
+  padding: 36px 130px;
+  font-family: Raleway;
+  margin: 50px 0;
+}
+
+.caw-info.faq {
+  font-size: 23px;
+}
+
+.caw .caw-info * {
+  color: white !important;
+  font-size: 29px !important;
+  line-height: 1.2;
+}
+
+.caw .caw-info p, .caw .caw-info h2 {
+  margin: 0;
+}
+
+
+.caw .caw-info-2 {
+  background: #dbc5c2;
+  padding: 30px 24px;
+  margin-bottom: 80px;
+}
+
+.caw .caw-info-2 p, .caw .caw-info-2 h2 {
+  margin: 0;
+
+}
+
+.caw .caw-info-2 p {
+  margin-bottom: 30px;
+}
+
+.caw .caw-info-2 h2 {
+  font-size: 25px;
+  color: #996f8a;
+}
+
+.caw-info-2 .bullets {
+  margin-top: -30px;
+  margin-left: 20px;
+}
+
+.caw-cards {
+  display: flex;
+  flex-wrap:wrap;
+  width: 80%;
+  margin: auto;
+}
+
+.caw-card {
+  width: 50%;
+  color: #996f8a;
+}
+
+.caw-card .holder {
+  background: white;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 12px #6c463678;
+  padding: 20px;
+}
+
+.caw-card p {
+  margin: 0;
+}
+
+.caw-card-bottom {
+  margin-top: 20px;
+}
+
+.caw-card-bottom {
+  font-size: 12px;
+  text-align: right;
+}
+
+.caw-card-bottom-stars {
+  margin-bottom: 5px;
+}
+
+.caw .img-2 {
+  margin-top: 130px;
+  margin-bottom: 40px;
+}
+
+.caw-big {
+  font-size: 23px;
+  line-height: 1.1;
+  margin-bottom: 40px;
+}
+
+.caw-big b {
+  font-size: 42px;
+  text-decoration: underline;
+}
+
+.caw-big-link {
+  display: inline-block;
+  padding: 24px 50px;
+  border-radius: 30px;
+  background: #635673;
+  font-size: 56px;
+  color: white;
+  box-shadow: 10px 10px 12px #6c463678;
+}
+
+
+.caw-course-for-you {
+  display: flex;
+  padding: 20px;
+  font-size: 23px;
+}
+
+.caw-course-for-you > div {
+  background: #dbc5c2;
+  margin: 20px;
+  padding: 30px;
+  position: relative;
+}
+
+.caw-course-for-you h2 {
+  margin-top: 0;
+  font-size: 27px;
+  text-align: center;
+}
+
+.caw-course-for-you p {
+  position: relative;
+  padding-left: 25px;
+}
+
+
+.caw-course-for-you span {
+  position: absolute;
+  left: -4px;
+  font-size: 20px;
+  top: 3px;
+}
+
+.caw-course-for-you-yes p {
+  margin-bottom: 43px;
+}
+
+.caw .img-logo {
+  margin: 50px 0;
+}
+
+.caw .text-bigger {
+  font-size: 23px;
+}
+
+.caw-info-2 {
+  margin-top: 40px;
+}
